@@ -1,0 +1,29 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: 500vh;
+  background: #000;
+}
+
+p {
+  padding-bottom: 30vh;
+  -webkit-text-fill-color: white;
+  size:30vh;
+}
+
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
+  padding-top: 20vh;
+  
+}
+
+//arrumar viewport de celular e pc (media @media-max-width)
+
+
